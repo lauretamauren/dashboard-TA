@@ -4,3 +4,4 @@ seaborn == 0.11.2
 pandas == 1.4.4
 folium == 0.15.1
 streamlit_folium == 0.18.0
+openpyxl
