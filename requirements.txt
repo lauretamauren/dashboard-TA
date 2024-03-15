@@ -2,5 +2,4 @@ streamlit == 1.31.1
 matplotlib == 3.5.2
 seaborn == 0.11.2
 pandas == 1.4.4
-matplotlib.pyplot
 folium == 0.15.1
