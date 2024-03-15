@@ -21,16 +21,6 @@ for column in datetime_columns:
 min_date = df["Tanggal"].min()
 max_date = df["Tanggal"].max()
 
-# sidebar sebelah kiri
-#with st.sidebar:
-    # Mengambil start_date & end_date dari date_input
-#    start_date, end_date = st.date_input(
-#        label='Rentang Waktu',min_value=min_date,
-#        max_value=max_date,
-#        value=[min_date, max_date]
-#    )
-
-
 #Header 
 st.set_page_config(layout='wide')
 st.markdown(
