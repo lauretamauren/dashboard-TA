@@ -105,7 +105,7 @@ popup_n = folium.Popup(html1, max_width=1000)
 folium.Marker([-7.426639020453093, 109.24882526626837], popup=popup_n).add_to(m)
 
 # Display the Streamlit map with markers
-folium_static(m, width=1500, height = 600)
+folium_static(m, width=1000, height = 600)
 st.subheader("     ")
 
 st.markdown("<h2 style='text-align: center;'>Grafik Harga Telur Ayam Ras</h2>", unsafe_allow_html=True)
